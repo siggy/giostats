@@ -1,9 +1,9 @@
 # giostats
-Display additional stats in https://generals.io
+Display additional stats in http://generals.io
 
 ## Instructions
 
-1. Browse to https://generals.io
+1. Browse to http://generals.io
 2. Paste this into your address bar:
 
 ```javascript
@@ -15,8 +15,15 @@ javascript:(function () {
 })();
 ```
 
+![address_bar.png](http://sig.gy/giostats/address_bar.png)
+
 3. Open the Replays window
 
+![replays_window.png](http://sig.gy/giostats/replays_window.png)
+
+### Note: It's never safe to follow instructions like this
+
+If you do not trust executing random scripts snippets to your address bar (and you probably should not), have a look at the contents of [giostats.js](http://sig.gy/giostats/giostats.js). You can paste that code directly into your javascript console.
 
 ## Open issues
 
