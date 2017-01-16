@@ -6,20 +6,20 @@ Display additional stats in http://generals.io
 1. Browse to http://generals.io
 2. Paste this into your address bar:
 
-```javascript
-javascript:(function () {
-  var newScript = document.createElement('script');
-  newScript.type = 'text/javascript';
-  newScript.src = 'http://sig.gy/giostats/giostats.js';
-  document.getElementsByTagName('body')[0].appendChild(newScript);
-})();
-```
+    ```javascript
+    javascript:(function () {
+      var newScript = document.createElement('script');
+      newScript.type = 'text/javascript';
+      newScript.src = 'http://sig.gy/giostats/giostats.js';
+      document.getElementsByTagName('body')[0].appendChild(newScript);
+    })();
+    ```
 
-![address_bar.png](http://sig.gy/giostats/address_bar.png)
+    ![address_bar.png](http://sig.gy/giostats/address_bar.png)
 
 3. Open the Replays window
 
-![replays_window.png](http://sig.gy/giostats/replays_window.png)
+    ![replays_window.png](http://sig.gy/giostats/replays_window.png)
 
 ### Note: It's never safe to follow instructions like this
 
