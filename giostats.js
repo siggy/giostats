@@ -56,7 +56,7 @@ function dumpData() {
   div.style.padding = "10px";
 
   var span = document.createElement("span");
-  span.appendChild(document.createTextNode("total games: " + gameCount));
+  span.appendChild(document.createTextNode("total games for " + user + ": " + gameCount));
   span.style.fontFamily = '"Lucida Console",Monaco,monospace';
   div.appendChild(span);
   div.appendChild(document.createElement("br"));
