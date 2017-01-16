@@ -23,7 +23,7 @@ Display additional stats in http://generals.io
 
 ### Note: It's never safe to follow instructions like this
 
-If you do not trust executing random scripts snippets to your address bar (and you probably should not), have a look at the contents of [giostats.js](http://sig.gy/giostats/giostats.js). You can paste that code directly into your javascript console.
+If you do not trust executing random scripts in your address bar (and you probably should not), have a look at the contents of [giostats.js](http://sig.gy/giostats/giostats.js). You can paste that code directly into your JavaScript console.
 
 ## Open issues
 
