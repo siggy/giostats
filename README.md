@@ -17,6 +17,8 @@ Display additional stats in http://generals.io
 
     ![address_bar.png](http://sig.gy/giostats/address_bar.png)
 
+Note if you are in Chrome, it may cutoff the `javascript:` part, you will need to retype that in manually.
+
 3. Open the Replays window
 
     ![replays_window.png](http://sig.gy/giostats/replays_window.png)

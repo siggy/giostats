@@ -1,5 +1,6 @@
 GAME_SIZE = 8;
 
+var gameCount = 0;
 var user = document.getElementsByTagName("input")[0].value;
 var games;
 
@@ -37,6 +38,7 @@ function dumpData() {
     if (spans.length != GAME_SIZE) {
       continue;
     }
+    gameCount++;
     for (j = 0; j < spans.length; j++) {
       if (spans[j].innerText.indexOf(user) !== -1) {
         places[j]++;
@@ -53,7 +55,7 @@ function dumpData() {
   div.style.padding = "10px";
 
   var span = document.createElement("span");
-  span.appendChild(document.createTextNode("total games: " + games.length));
+  span.appendChild(document.createTextNode("total games: " + gameCount));
   span.style.fontFamily = '"Lucida Console",Monaco,monospace';
   div.appendChild(span);
   div.appendChild(document.createElement("br"));
@@ -67,7 +69,7 @@ function dumpData() {
         ": " +
         places[i] +
         " (" +
-        (100*places[i]/games.length).toFixed(2) +
+        (100*places[i]/gameCount).toFixed(2) +
         "%)"
       )
     );
