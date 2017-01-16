@@ -38,9 +38,10 @@ function dumpData() {
     if (spans.length != GAME_SIZE) {
       continue;
     }
-    gameCount++;
+
     for (j = 0; j < spans.length; j++) {
       if (spans[j].innerText.indexOf(user) !== -1) {
+        gameCount++;
         places[j]++;
         break;
       }
